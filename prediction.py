@@ -6,7 +6,7 @@ from io import BytesIO
 from PIL import Image
 
 def model_init():
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='./model/best.pt')
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='.yolov5/runs/train/age_gender_detect/weights/best.pt')
     model.conf = 0.4  # confidence threshold
     model.iou = 0.45  # NMS IoU threshold
     model.classes = None  # filter by class
