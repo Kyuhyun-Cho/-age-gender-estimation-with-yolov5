@@ -1,0 +1,140 @@
+{
+    "os": "Linux-5.15.0-72-generic-x86_64-with-glibc2.31",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-05-20T18:25:54.139011",
+    "startedAt": "2023-05-20T18:25:53.328718",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "200",
+        "--batch",
+        "16",
+        "--epochs",
+        "300",
+        "--data",
+        "./dataset/data.yaml",
+        "--cfg",
+        "./models/yolov5s.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--name",
+        "age_detectino_img_200"
+    ],
+    "state": "running",
+    "program": "/home/kobot/alpha_project/yolov5/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "ec2b8538cdf1ec3a37f7f2ffff4d591f322cc410"
+    },
+    "email": null,
+    "root": "/home/kobot/alpha_project/yolov5",
+    "host": "kobot",
+    "username": "kobot",
+    "executable": "/home/kobot/anaconda3/envs/yolo_v5/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2989.61975,
+        "min": 800.0,
+        "max": 4800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4333.916,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2900.0,
+            "min": 800.0,
+            "max": 4800.0
+        }
+    ],
+    "disk": {
+        "total": 438.5479202270508,
+        "used": 320.08470916748047
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.563175201416016
+    }
+}

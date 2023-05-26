@@ -1,0 +1,56 @@
+2023-05-18 20:47:54,548 INFO    StreamThr :23820 [internal.py:wandb_internal():86] W&B internal server running at pid: 23820, started at: 2023-05-18 20:47:54.548008
+2023-05-18 20:47:54,549 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: status
+2023-05-18 20:47:54,551 INFO    WriterThread:23820 [datastore.py:open_for_write():85] open: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/run-i9re5o1j.wandb
+2023-05-18 20:47:54,551 DEBUG   SenderThread:23820 [sender.py:send():375] send: header
+2023-05-18 20:47:54,553 DEBUG   SenderThread:23820 [sender.py:send():375] send: run
+2023-05-18 20:47:54,557 INFO    SenderThread:23820 [sender.py:_maybe_setup_resume():761] checking resume status for None/YOLOv5/i9re5o1j
+2023-05-18 20:47:55,255 INFO    SenderThread:23820 [dir_watcher.py:__init__():219] watching files in: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files
+2023-05-18 20:47:55,255 INFO    SenderThread:23820 [sender.py:_start_run_threads():1124] run started: i9re5o1j with start time 1684410474.548431
+2023-05-18 20:47:55,255 DEBUG   SenderThread:23820 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 20:47:55,255 INFO    SenderThread:23820 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 20:47:55,257 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: check_version
+2023-05-18 20:47:55,257 DEBUG   SenderThread:23820 [sender.py:send_request():402] send_request: check_version
+2023-05-18 20:47:55,304 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: run_start
+2023-05-18 20:47:55,308 DEBUG   HandlerThread:23820 [system_info.py:__init__():31] System info init
+2023-05-18 20:47:55,308 DEBUG   HandlerThread:23820 [system_info.py:__init__():46] System info init done
+2023-05-18 20:47:55,308 INFO    HandlerThread:23820 [system_monitor.py:start():181] Starting system monitor
+2023-05-18 20:47:55,308 INFO    SystemMonitor:23820 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-18 20:47:55,308 INFO    HandlerThread:23820 [system_monitor.py:probe():201] Collecting system info
+2023-05-18 20:47:55,308 INFO    SystemMonitor:23820 [interfaces.py:start():190] Started cpu monitoring
+2023-05-18 20:47:55,309 INFO    SystemMonitor:23820 [interfaces.py:start():190] Started disk monitoring
+2023-05-18 20:47:55,309 INFO    SystemMonitor:23820 [interfaces.py:start():190] Started gpu monitoring
+2023-05-18 20:47:55,310 INFO    SystemMonitor:23820 [interfaces.py:start():190] Started memory monitoring
+2023-05-18 20:47:55,310 INFO    SystemMonitor:23820 [interfaces.py:start():190] Started network monitoring
+2023-05-18 20:47:55,349 DEBUG   HandlerThread:23820 [system_info.py:probe():195] Probing system
+2023-05-18 20:47:55,351 DEBUG   HandlerThread:23820 [system_info.py:_probe_git():180] Probing git
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_info.py:_probe_git():188] Probing git done
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_info.py:probe():240] Probing system done
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.11.3', 'heartbeatAt': '2023-05-18T11:47:55.349855', 'startedAt': '2023-05-18T11:47:54.544476', 'docker': None, 'cuda': None, 'args': ('--data', './dataset/data.yaml', '--cfg', './models/yolov5s.yaml', '--img', '640', '--batch', '16', '--epochs', '300', '--weights', 'yolov5s.pt', '--name', 'utk_age'), 'state': 'running', 'program': '/home/kobot/alpha_project/yolov5/train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5.git', 'commit': 'ec2b8538cdf1ec3a37f7f2ffff4d591f322cc410'}, 'email': None, 'root': '/home/kobot/alpha_project/yolov5', 'host': 'kobot', 'username': 'kobot', 'executable': '/home/kobot/anaconda3/envs/yolo_v5/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3001.42825, 'min': 800.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 4398.951, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}, {'current': 2900.0, 'min': 800.0, 'max': 4800.0}], 'disk': {'total': 438.5479202270508, 'used': 295.5493927001953}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 15.563533782958984}}
+2023-05-18 20:47:55,355 INFO    HandlerThread:23820 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-18 20:47:55,355 INFO    HandlerThread:23820 [system_monitor.py:probe():214] Publishing system info
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-18 20:47:55,355 DEBUG   HandlerThread:23820 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-18 20:47:56,256 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_created():278] file/dir created: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/wandb-summary.json
+2023-05-18 20:47:56,256 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_created():278] file/dir created: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/requirements.txt
+2023-05-18 20:47:56,256 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_created():278] file/dir created: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/conda-environment.yaml
+2023-05-18 20:47:56,952 DEBUG   HandlerThread:23820 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-18 20:47:56,952 INFO    HandlerThread:23820 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-18 20:47:56,955 DEBUG   SenderThread:23820 [sender.py:send():375] send: files
+2023-05-18 20:47:56,955 INFO    SenderThread:23820 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-18 20:47:56,958 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 20:47:56,958 DEBUG   SenderThread:23820 [sender.py:send():375] send: telemetry
+2023-05-18 20:47:56,959 DEBUG   SenderThread:23820 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 20:47:57,257 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/conda-environment.yaml
+2023-05-18 20:47:57,257 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_created():278] file/dir created: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/wandb-metadata.json
+2023-05-18 20:47:57,257 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_created():278] file/dir created: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/output.log
+2023-05-18 20:47:57,535 INFO    wandb-upload_0:23820 [upload_job.py:push():137] Uploaded file /tmp/tmp1xf3bhlawandb/xh4ub9nm-wandb-metadata.json
+2023-05-18 20:47:59,257 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/output.log
+2023-05-18 20:48:00,030 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 20:48:01,257 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/output.log
+2023-05-18 20:48:05,032 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 20:48:07,260 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/output.log
+2023-05-18 20:48:10,103 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 20:48:12,596 DEBUG   HandlerThread:23820 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 20:48:12,659 DEBUG   SenderThread:23820 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 20:48:12,660 INFO    Thread-12 :23820 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/kobot/alpha_project/yolov5/wandb/run-20230518_204754-i9re5o1j/files/output.log
